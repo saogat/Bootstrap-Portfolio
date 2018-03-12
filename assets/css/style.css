@@ -2,7 +2,7 @@ body {
     background-image: url("vintage-concrete.png");
 }
 
-.navbar-brand{
+.navbar-brand {
     background: #4aaaa5;
     width: 200px;
     height: 40px;
@@ -15,22 +15,18 @@ body {
     float: left;
 }
 
-.navbar-brand{
-    color: white;
+
+.nav {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
 }
 
-
-a:hover{
+a:hover {
     color: #CCAB14;
 }
 
 a:link {
     text-decoration: none;
-}
-
-a {
-    color: #777777;
-    margin: 0 10px 0 0;
 }
 
 p {
@@ -51,41 +47,44 @@ section {
     font-size: 30px;
     color: #4aaaa5;
     padding: 20px 20px 20px 0;
+    margin-left: 20px;
 }
 
-
-
+.panel-title {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 30px;
+    color: #4aaaa5;
+    padding: 20px 20px 20px 0;
+}
 
 #hangmanH2 {
     position: absolute;
     top: 160px;
     background: #4aaaa5;
     text-align: center;
-    width: 100%;
+    width: 200px;
     height: 30px;
     padding-top: 5px;
     color: #ffffff;
 }
- 
 
 #rpgH2 {
     position: absolute;
     top: 160px;
     background: #4aaaa5;
     text-align: center;
-    width: 100%;
+    width: 200px;
     height: 30px;
     padding-top: 5px;
     color: #ffffff;
 }
-
 
 #triviaH2 {
     position: absolute;
     top: 160px;
     background: #4aaaa5;
     text-align: center;
-    width: 100%;
+    width: 200px;
     height: 30px;
     padding-top: 5px;
     color: #ffffff;
@@ -96,7 +95,7 @@ section {
     top: 160px;
     background: #4aaaa5;
     text-align: center;
-    width: 100%;
+    width: 200px;
     height: 30px;
     padding-top: 5px;
     color: #ffffff;
@@ -107,7 +106,7 @@ section {
     top: 160px;
     background: #4aaaa5;
     text-align: center;
-    width: 100%;
+    width: 200px;
     height: 30px;
     padding-top: 5px;
     color: #ffffff;
@@ -161,6 +160,6 @@ footerP {
     color: black;
 }
 
-.footer{
+.footer {
     text-align: center;
 }
