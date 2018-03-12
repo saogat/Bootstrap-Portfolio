@@ -2,8 +2,7 @@ body {
     background-image: url("vintage-concrete.png");
 }
 
-
-header {
+.navbar-brand{
     background: #4aaaa5;
     width: 200px;
     height: 40px;
@@ -11,10 +10,15 @@ header {
     font-size: 30px;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
     margin: 0 100px 0 100px;
     float: left;
 }
+
+.navbar-brand{
+    color: white;
+}
+
 
 a:hover{
     color: #CCAB14;
