@@ -53,21 +53,8 @@ section {
     padding: 20px 20px 20px 0;
 }
 
-#myImage {
-    float: left;
-    padding: 0 20px 0 0;
-}
 
-#hangmanRpgImage {
-    position: relative;
-    width: 420px;
-    margin: 20px 20px 30px 0;
-}
 
-#hangmanImage {
-    position: relative;
-    float: left;
-}
 
 #hangmanH2 {
     position: absolute;
@@ -79,11 +66,7 @@ section {
     padding-top: 5px;
     color: #ffffff;
 }
-
-#rpgImage {
-    position: relative;
-    float: right;
-}
+ 
 
 #rpgH2 {
     position: absolute;
@@ -97,17 +80,6 @@ section {
 }
 
 
-#triviaRutgersImage {
-    position: relative;
-    width: 420px;
-    margin: 20px 20px 30px 0;
-}
-
-#triviaImage {
-    position: relative;
-    float: left;
-}
-
 #triviaH2 {
     position: absolute;
     top: 160px;
@@ -119,12 +91,6 @@ section {
     color: #ffffff;
 }
 
-
-#rutgersImage {
-    position: relative;
-    float: right;
-}
-
 #rutgersH2 {
     position: absolute;
     top: 160px;
@@ -134,11 +100,6 @@ section {
     height: 30px;
     padding-top: 5px;
     color: #ffffff;
-}
-
-#rockImage {
-    width: 200px;
-    position: relative;
 }
 
 #rockH2 {
